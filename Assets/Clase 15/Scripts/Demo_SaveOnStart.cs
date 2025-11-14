@@ -1,16 +1,24 @@
 using System.Collections;
 using UnityEngine;
 
-public class Demo_SaveOnStart : MonoBehaviour
+namespace Clase15
 {
-    IEnumerator Start()
+    public class Demo_SaveOnStart : MonoBehaviour
     {
-        while (!FirebaseManager.Instance || !FirebaseManager.Instance.FirebaseReady)
-        {
-            yield return null;
-        }
+        [SerializeField] private string playerName = "pepito";
+        [SerializeField] private int playerHP = 10;
+        [SerializeField] private int playerMana = 50;
+        [SerializeField] private float playerSpeed = 3f;
 
-        var player = new PlayerInfo("pepito", 10, 50, 3);
-        FirebaseManager.Instance.AddOrUpdatePlayerInfo(player);
+        IEnumerator Start()
+        {
+            while (!FirebaseManager.Instance || !FirebaseManager.Instance.FirebaseReady)
+            {
+                yield return null;
+            }
+
+            var player = new PlayerInfo(playerName, playerHP, playerMana, playerSpeed);
+            FirebaseManager.Instance.AddOrUpdatePlayerInfo(player);
+        }
     }
 }

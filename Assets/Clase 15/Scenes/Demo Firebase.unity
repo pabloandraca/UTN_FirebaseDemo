@@ -148,6 +148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58c8e33453e45594c98e8464b4a6db4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Demo_SaveOnStart
+  playerName: matiasSandoval
+  playerHP: 100
+  playerMana: 500
+  playerSpeed: 50
 --- !u!4 &605124815
 Transform:
   m_ObjectHideFlags: 0
@@ -360,7 +364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1698684875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 763acdf68ef5b1d489cdf00fb8b1e084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Demo_LoadOnStart
+  playerName: matiasSandoval
 --- !u!4 &1698684876
 Transform:
   m_ObjectHideFlags: 0
