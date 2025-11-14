@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "669394283983",
+    "project_id": "utn-test-db8d4",
+    "storage_bucket": "utn-test-db8d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669394283983:android:63b582a7c03b486a2436ba",
+        "android_client_info": {
+          "package_name": "com.UtnTest.Jueguito"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqbZ5F8UInzukgLvp939_tY1JWHWKv9Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
